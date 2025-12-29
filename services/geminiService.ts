@@ -3,7 +3,8 @@ import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
 
 const getApiKey = () => {
   try {
-    return process.env.API_KEY || "";
+    // In Vite, process.env is usually injected via the define config
+    return (process.env as any).API_KEY || "";
   } catch (e) {
     return "";
   }
