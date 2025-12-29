@@ -1,0 +1,7 @@
+{
+  "name": "IRON FORGE - Premium Fitness Club",
+  "description": "A high-performance, conversion-optimized fitness gym website featuring AI-powered training assistance and modern aesthetics.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
